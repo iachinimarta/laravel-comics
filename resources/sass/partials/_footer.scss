@@ -1,6 +1,8 @@
+@import "./common.scss";
+
 .footer-up {
     display: flex;
-    background-image: url('/public/images/footer-bg.jpg');
+    background-image: url('/images/footer-bg.jpg');
 
     .up {
         display: flex;
@@ -8,14 +10,24 @@
             display: flex;
             width: 30%;
             padding: 20px;
+
+            .element-container {
+                height: 250px;
+                margin: 0 20px;
+                .title {
+                    margin-bottom: 10px;
+                }
+                a {
+                    color: lightgrey;
+                }
+            }
         }
     }
     .big-logo {
         width: 70%;
         position: relative;
         img {
-            width: 400px;
-            height: 400px;
+            width: 350px;
             position: absolute;
             bottom: -55px;
             right: 30px;

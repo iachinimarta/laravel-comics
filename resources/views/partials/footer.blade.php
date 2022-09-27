@@ -2,10 +2,20 @@
     <div class="footer-up">
         <div class="container90 up">
             <div class="footer-link">
+                <div class="element-container">
+                    <h4 class="title">hhh</h4>
+                    <ul>
+                        <li class="title-li">
+                            <a href="#">
+                                hhh
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div class="big-logo">
-                <img src="{{asset('images/dc-logo-bg.png')}}" alt="">
+                <img src="{{asset('images/dc-logo-bg.png')}}" alt="logo-dc">
             </div>
         </div>
     </div>
