@@ -6,7 +6,12 @@
 
         <nav>
             <ul>
-                <li>Prova</li>
+                <li>
+                    <a href="{{route ('home_page')}}">HOME</a>
+                </li>
+                <li>
+                    <a href="{{route ('comics_page')}}">COMICS</a>
+                </li>
             </ul>
         </nav>
     </div>   

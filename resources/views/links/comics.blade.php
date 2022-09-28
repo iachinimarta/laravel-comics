@@ -1,14 +1,11 @@
 @extends('structure.structure')
 
-@section('main_content')
-    <div>
-        <div class="card-container">
-            <div class="card" >
-                <a href="#">
-                    <img src="" alt="">
-                    <div>prova</div>
-                </a>
-            </div>
+@section('page_title', 'Comics')
+
+@section('content')
+    <div class="card-container">
+        <div class="card" >
+            <div>prova</div>
         </div>
-    </div> 
+    </div>
 @endsection

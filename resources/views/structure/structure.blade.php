@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <title>Laravel Comics</title>
+    <title>@yield('page_title')</title>
 </head>
 <body>
-    @include('partials.header')
-    @include('partials.jumbotron')
+    @include('common.header')
+    @include('common.jumbotron')
     <main>
-        @yield('main_content')
+        @yield('content')
     </main>
-    @include('partials.footer')
+    @include('common.footer')
 </body>
 </html>
