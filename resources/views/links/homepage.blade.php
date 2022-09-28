@@ -6,9 +6,9 @@
     <div class="comics-container">
         <div class="current-series btn">CURRENT SERIES</div>
         <div class="card-container">
-            @foreach ($items as $item)
+            @foreach ($items as $key => $item)
                 <div class="card">
-                    <a href="#">
+                    <a href="{{route('comic_detail', ['id' => $key])}}">
                         <img src="{{$item['thumb']}}" alt="$item['title']">
                         <div>{{$item['series']}}</div>
                     </a>

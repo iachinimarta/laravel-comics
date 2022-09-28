@@ -18,7 +18,8 @@ Route::get('/', function () {
     return view('links.homepage',['items'=>$comicsList]);
 })->name('home_page');
 
-Route::get('/comics', function () {
-    $singleComic = config('comics');
-    return view('links.comics', ['singleComic'=>$singleComic]);
-})->name('comics_page');
+Route::get('/comicDetail/{id}', function($id) {
+    $comicsList = config('comics');
+    $comicDetail = $comicsList[$id];
+    return view('links.comicDetail', ['singleComic'=>$comicDetail]);
+})->name('comic_detail');

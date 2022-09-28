@@ -10,7 +10,7 @@
                     <a href="{{route ('home_page')}}">HOME</a>
                 </li>
                 <li>
-                    <a href="{{route ('comics_page')}}">COMICS</a>
+                    <a href="#">COMICS</a>
                 </li>
                 <li>
                     <a href="#">MOVIES</a>

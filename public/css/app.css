@@ -45,6 +45,18 @@ a {
   color: white;
 }
 
+.by {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 5px 0 20px 0;
+}
+
+.by .right-section {
+  width: 70%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -90,6 +102,18 @@ a {
   line-height: 30px;
   text-align: center;
   color: white;
+}
+
+.by {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 5px 0 20px 0;
+}
+
+.by .right-section {
+  width: 70%;
 }
 
 header {
@@ -172,6 +196,18 @@ a {
   line-height: 30px;
   text-align: center;
   color: white;
+}
+
+.by {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 5px 0 20px 0;
+}
+
+.by .right-section {
+  width: 70%;
 }
 
 .contents {
@@ -270,6 +306,18 @@ a {
   line-height: 30px;
   text-align: center;
   color: white;
+}
+
+.by {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 5px 0 20px 0;
+}
+
+.by .right-section {
+  width: 70%;
 }
 
 .footer-up {
@@ -406,6 +454,18 @@ a {
   color: white;
 }
 
+.by {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 5px 0 20px 0;
+}
+
+.by .right-section {
+  width: 70%;
+}
+
 .comics-container {
   position: relative;
 }
@@ -495,6 +555,18 @@ a {
   color: white;
 }
 
+.by {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 5px 0 20px 0;
+}
+
+.by .right-section {
+  width: 70%;
+}
+
 .bonus {
   background-color: #0282F9;
   padding: 20px 0;
@@ -579,7 +651,74 @@ a {
   color: white;
 }
 
-.single-comic {
+.by {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 5px 0 20px 0;
+}
+
+.by .right-section {
+  width: 70%;
+}
+
+.singleComic-container {
+  background-color: white;
+}
+
+.singleComic-container .blue-section {
+  height: 70px;
+  background-color: #0282f9;
+  position: relative;
+}
+
+.singleComic-container .blue-section .singleComic-thumb {
+  height: 250px;
+  position: absolute;
+  left: 25%;
+  bottom: 40%;
+  border: 2px solid white;
+}
+
+.singleComic-container .singleComic-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.singleComic-container .singleComic-description .up {
+  width: 1000px;
+}
+
+.singleComic-container .singleComic-description .up .singleComic-price {
+  height: 40px;
+  background-color: #55BA59;
+  line-height: 40px;
+  vertical-align: middle;
   color: white;
+  padding-left: 20px;
+}
+
+.singleComic-container .singleComic-description .up .singleComic-text {
+  color: rgb(104, 103, 103);
+}
+
+.singleComic-container .singleComic-description .down {
+  height: 400px;
+  width: 1000px;
+  display: flex;
+  margin-top: 30px;
+}
+
+.singleComic-container .singleComic-description .down .singleComic-talent,
+.singleComic-container .singleComic-description .down .singleComic-specs {
+  width: 50%;
+}
+
+.singleComic-container .singleComic-description .down .singleComic-specs {
+  padding-left: 30px;
 }
 
