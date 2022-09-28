@@ -18,6 +18,7 @@ Route::get('/', function () {
 })->name('home_page');
 
 Route::get('/comics', function () {
-    return view('links.comics');
+    $comicsList = config('comics');
+    return view('links.comics', ['items'=>$comicsList]);
 })->name('comics_page');
 

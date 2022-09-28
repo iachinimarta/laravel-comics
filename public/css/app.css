@@ -7,6 +7,7 @@
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
+  background-color: black;
 }
 
 .active {
@@ -35,6 +36,15 @@ a {
   color: white;
 }
 
+.btn {
+  background-color: #0282f9;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -44,6 +54,7 @@ a {
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
+  background-color: black;
 }
 
 .active {
@@ -69,6 +80,15 @@ a {
 }
 
 .title {
+  color: white;
+}
+
+.btn {
+  background-color: #0282f9;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
   color: white;
 }
 
@@ -116,6 +136,7 @@ header .container90 ul li a {
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
+  background-color: black;
 }
 
 .active {
@@ -141,6 +162,15 @@ a {
 }
 
 .title {
+  color: white;
+}
+
+.btn {
+  background-color: #0282f9;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
   color: white;
 }
 
@@ -204,6 +234,7 @@ a {
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
+  background-color: black;
 }
 
 .active {
@@ -229,6 +260,15 @@ a {
 }
 
 .title {
+  color: white;
+}
+
+.btn {
+  background-color: #0282f9;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
   color: white;
 }
 
@@ -328,6 +368,7 @@ a {
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
+  background-color: black;
 }
 
 .active {
@@ -356,21 +397,30 @@ a {
   color: white;
 }
 
+.btn {
+  background-color: #0282f9;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
+
 .card-container {
-  height: 300px;
   width: 60%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  font-size: 10px;
+  font-size: 12px;
   padding: 40px 0;
+  color: white;
 }
 
 .card-container .card {
-  width: calc(16.6666666667% - 20px);
-  height: 80px;
-  margin: 10px;
+  width: calc(16.6666666667% - 40px);
+  height: 125px;
+  margin: 20px;
 }
 
 .card-container .card img {
@@ -382,6 +432,12 @@ a {
      object-position: 0 0;
 }
 
+.d-flex {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 30px 0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -391,6 +447,7 @@ a {
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
+  background-color: black;
 }
 
 .active {
@@ -416,6 +473,15 @@ a {
 }
 
 .title {
+  color: white;
+}
+
+.btn {
+  background-color: #0282f9;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
   color: white;
 }
 

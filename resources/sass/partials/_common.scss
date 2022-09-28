@@ -9,6 +9,7 @@ $brand-color: #0282f9;
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
+    background-color: black;
 }
 
 .active {
@@ -34,5 +35,14 @@ a {
 }
 
 .title {
+    color: white;
+}
+
+.btn {
+    background-color: #0282f9;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
     color: white;
 }
