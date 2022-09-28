@@ -3,6 +3,26 @@
 @section('page_title', 'HomePage')
 
 @section('content')
+    <div class="comics-container">
+        <div class="current-series btn">CURRENT SERIES</div>
+        <div class="card-container">
+            @foreach ($items as $item)
+                <div class="card">
+                    <a href="#">
+                        <img src="{{$item['thumb']}}" alt="$item['title']">
+                        <div>{{$item['series']}}</div>
+                    </a>
+                </div>
+            @endforeach
+        </div>
+        <div class="d-flex">
+            <div class="btn">
+                <a href="#">
+                    LOAD MORE
+                </a>
+            </div>
+        </div>
+    </div>
     <div class="bonus">
         <ul>
             <li>
