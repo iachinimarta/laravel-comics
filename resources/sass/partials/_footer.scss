@@ -6,6 +6,7 @@
 
     .up {
         display: flex;
+
         .footer-link {
             display: flex;
             width: 30%;
@@ -14,6 +15,7 @@
             .element-container {
                 height: 250px;
                 margin: 0 20px;
+
                 .title {
                     margin-bottom: 10px;
                 }
@@ -45,9 +47,10 @@
     z-index: 998;
 
     .container90 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
         .subscribe {
             border: 2px solid #0282F9;
             height: 40px;
@@ -56,6 +59,7 @@
                 color: white;
             }
         }
+        
         .social-icon {
             display: flex;
             align-items: center;
